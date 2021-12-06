@@ -2,7 +2,7 @@ var express = require("express");
 var multer = require("multer");
 const cors = require("cors");
 
-var port = 8888;
+const port = process.env.PORT || 8888;
 
 var app = express();
 
