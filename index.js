@@ -2,7 +2,7 @@ var express = require("express");
 var multer = require("multer");
 const cors = require("cors");
 const fs = require('fs')
-!fs.existsSync(`./uploads`) && fs.mkdirSync(`./assets/`, { recursive: true })
+!fs.existsSync(`/uploads`) && fs.mkdirSync(`./assets/`, { recursive: true })
 
 const port = process.env.PORT || 8888;
 
